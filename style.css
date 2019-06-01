@@ -1,0 +1,217 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#main_backdrop {
+    background-color: #FF0000;
+    overflow-y: hidden;
+}
+
+#eggs_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    width: 50vh;
+    z-index: 5;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    background-color: aliceblue;
+    z-index: -1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 85% 65%, 60% 70%, 45% 60%, 20% 69%, 0% 60%);
+}
+
+#main_button_start {
+    margin-left: auto;
+    font-family: TruthCYR;
+    margin-right: auto;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    color: #ff0000;
+    font-size: 2vw;
+    background-color: aliceblue;
+    transition: 1.5s ease background-color;
+}
+
+#err_button_start {
+    margin-left: auto;
+    font-family: TruthCYR;
+    margin-right: auto;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 2vw;
+    background-color: #ff0000;
+    transition: 1.5s ease background-color;
+}
+
+.pg {
+    margin-top: 35vh;
+}
+
+#oct1 {
+    position: absolute;
+    background-color: #ff0000;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    top: -5vh;
+    left: -5vw;
+    width: 20vh;
+    height: 20vh;
+    z-index: 1;
+}
+
+#oct2 {
+    position: absolute;
+    background-color: #ff0000;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    top: 30vh;
+    left: 80vw;
+    width: 7.5vh;
+    height: 7.5vh;
+    z-index: 1;
+    transform: rotate(45deg);
+}
+
+#oct3 {
+    position: absolute;
+    background-color: #ff0000;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    top: 45vh;
+    left: 10vw;
+    width: 5vh;
+    height: 5vh;
+    z-index: 1;
+    transform: rotate(75deg);
+}
+
+#oct4 {
+    position: absolute;
+    background-color: #ff0000;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    top: 5vh;
+    left: 50vw;
+    width: 15vh;
+    height: 15vh;
+    z-index: 1;
+    transform: rotate(15deg);
+}
+
+#oct5 {
+    position: absolute;
+    background-color: #ff0000;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    top: 50vh;
+    left: 75vw;
+    width: 5vh;
+    height: 5vh;
+    z-index: 1;
+    transform: rotate(5deg);
+}
+
+#oct6 {
+    position: absolute;
+    background-color: #ff0000;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    top: 25vh;
+    left: 20vw;
+    width: 12.5vh;
+    height: 12.5vh;
+    z-index: 1;
+    transform: rotate(30deg);
+}
+
+#title {
+    font-size: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-family: TruthCYR;
+}
+
+#err_title {
+    font-size: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ff0000;
+    font-family: TruthCYR;
+}
+
+#main_button_start:hover {
+    background-color: lightgray;
+}
+
+#header,
+.item,
+button {
+    font-family: TruthCYR;
+}
+
+.item {
+    text-transform: capitalize;
+    border: .5vh solid #ff0000;
+    width: auto;
+    margin: 1.5vh;
+    border-radius: 10px;
+    padding: .5vh;
+}
+
+#header,
+#filler {
+    padding: 2vh;
+    margin: 0;
+    color: aliceblue;
+    background-color: #ff0000;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5vh;
+    padding-bottom: 6vh;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 95% 100%, 85% 70%, 80% 65%, 70% 55%, 60% 90%, 45% 100%, 25% 70%, 15% 85%, 5% 64%, 0 73%);
+}
+
+#filler {
+    position: absolute;
+    margin: 0;
+    left: 0vh;
+    top: 0.75vh;
+    background-color: darkred;
+    z-index: -1;
+}
+
+#groups_button {
+    border: none;
+    background-color: #ff0000;
+    color: aliceblue;
+    margin: 0.5vh;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 10px;
+}
+
+.container {
+    height: 50vh;
+}
+
+.chart-wrapper {
+    width: 42vw;
+    height: 42vh;
+    margin: 0 auto;
+}
+
+#group_cont {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-color: white;
+    border: .5vh solid lightgray;
+    width: 80%;
+    height: auto;
+}
